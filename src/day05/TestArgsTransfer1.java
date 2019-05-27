@@ -1,4 +1,4 @@
-package oop;
+package day05;
 
 public class TestArgsTransfer1 {
     public static void main(String[] args) {

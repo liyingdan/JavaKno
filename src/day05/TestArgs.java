@@ -1,4 +1,4 @@
-package oop;
+package day05;
 
 /*
  * 可变个数的形参的方法：

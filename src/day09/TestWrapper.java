@@ -42,7 +42,7 @@ public class TestWrapper {
 
         Float f = new Float("12.3F");
         System.out.println(f);
-        // 报错：java.lang.NumberFormatException
+        // 报错：lambda.lang.NumberFormatException
         //i1 = new Integer("12abc");
         //System.out.println(i1);
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import org.junit.Test;
 /*一、异常的体系结构
- * java.lang.Throwable
+ * lambda.lang.Throwable
  * 		|-----Error:错误，程序中不进行处理
  * 		|-----Exception:异常，要求在编写程序时，就要考虑到对这些异常的处理
  * 				|-----编译时异常：在编译期间会出现的异常（执行javac.exe命令时，出现异常）
@@ -14,19 +14,19 @@ import org.junit.Test;
  * 当执行一个程序时，如果出现异常，那么异常之后的代码就不再执行！
  *
  * 常见异常
- * java.lang.RuntimeException
+ * lambda.lang.RuntimeException
 ClassCastException
 ArrayIndexOutOfBoundsException
 NullPointerException
 ArithmeticException
 。。。
-java.io.IOExeption
+lambda.io.IOExeption
 FileNotFoundException
 EOFException
-java.lang.ClassNotFoundException
-java.lang.InterruptedException
-java.io.FileNotFoundException
-java.sql.SQLException
+lambda.lang.ClassNotFoundException
+lambda.lang.InterruptedException
+lambda.io.FileNotFoundException
+lambda.sql.SQLException
 
  */
 public class TestException {

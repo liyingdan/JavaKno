@@ -7,7 +7,7 @@ public class TestEquals {
 
 		//equals():
 		//①只能处理引用类型变量②在Object类，发现equals()仍然比较的两个引用变量的地址值是否相等
-		//java.lang.Object类，是所有类的根父类
+		//lambda.lang.Object类，是所有类的根父类
 
 		Person p1 = new Person();
 		Person p2 = new Person();

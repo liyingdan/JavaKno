@@ -42,7 +42,7 @@ public class TestPerson {
 		Woman w = (Woman) p2;// 向下转型,使用强转符：()
 		w.shopping();
 
-		// java.lang.ClassCastException
+		// lambda.lang.ClassCastException
 		// Woman w1 = (Woman)p1;
 		// w1.shopping();
 

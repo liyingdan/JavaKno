@@ -6,7 +6,7 @@ import java.util.Date;
 
 /*
  * toString()方法：
- * java.lang.Object类的toString()方法的定义如下：
+ * lambda.lang.Object类的toString()方法的定义如下：
  * public String toString() {
         return getClass().getName() + "@" + Integer.toHexString(hashCode());
     }
@@ -20,7 +20,7 @@ public class TestToString {
     public static void main(String[] args) {
         Person p1 = new Person("AA", 10);
         System.out.println(p1.toString());
-        System.out.println(p1);//在没有重写toString()时：com.atguigu.java.Person@15093f1
+        System.out.println(p1);//在没有重写toString()时：com.atguigu.lambda.Person@15093f1
 
         //4.像String类、包装类、File类、Date类等，已经实现了Object类中toString()方法的重写。
         String str = "AA";

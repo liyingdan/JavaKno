@@ -12,7 +12,7 @@ package day11;
  * 5.关于内部类，大家掌握三点：
  *   ①如何创建成员内部类的对象（如：创建Bird类和Dog类的对象）
  *   ②如何区分调用外部类、内部类的变量(尤其是变量重名时)
- *   ③局部内部类的使用 （见TestInnerClass1.java）
+ *   ③局部内部类的使用 （见TestInnerClass1.lambda）
  *
  */
 public class TestInnerClass {

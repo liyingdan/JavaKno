@@ -2,7 +2,7 @@ package day04;
 
 public class TestException {
     public static void main(String[] args) {
-        //1.数组下标越界的异常:java.lang.ArrayIndexOutOfBoundsException
+        //1.数组下标越界的异常:lambda.lang.ArrayIndexOutOfBoundsException
         int[] i = new int[10];
 //		i[0] = 90;
 //		i[10] = 99;

@@ -14,10 +14,10 @@ package day07;
  * 7)import static 表示导入指定类的static的属性或方法
  * 8)导入java.lang.*只能导入lang包下的所有类或接口，不能导入lang的子包下的类或接口
  */
-//import java.util.Scanner;
-//import java.util.Date;
-//import java.util.List;
-//import java.util.ArrayList;
+//import lambda.util.Scanner;
+//import lambda.util.Date;
+//import lambda.util.List;
+//import lambda.util.ArrayList;
 import java.lang.reflect.Field;
 import java.util.*;
 import static java.lang.System.*;

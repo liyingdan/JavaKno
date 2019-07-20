@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-/**
+/*
  * 方法引用的使用
  *
  * 1.使用情境：当要传递给Lambda体的操作，已经有实现的方法了，可以使用方法引用！
@@ -122,6 +122,7 @@ public class MethodRefTest {
 		System.out.println(pre1.test("abc","abc"));
 
 		System.out.println("*******************");
+
 		BiPredicate<String,String> pre2 = String :: equals;
 		System.out.println(pre2.test("abc","abd"));
 	}
@@ -132,17 +133,13 @@ public class MethodRefTest {
 	public void test7() {
 		Employee employee = new Employee(1001, "Jerry", 23, 6000);
 
-
 		Function<Employee,String> func1 = e -> e.getName();
 		System.out.println(func1.apply(employee));
 
 		System.out.println("*******************");
 
-
 		Function<Employee,String> func2 = Employee::getName;
 		System.out.println(func2.apply(employee));
-
-
 	}
 
 }

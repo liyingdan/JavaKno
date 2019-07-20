@@ -7,7 +7,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-/**
+/*
  * 一、构造器引用
  *      和方法引用类似，函数式接口的抽象方法的形参列表和构造器的形参列表一致。
  *      抽象方法的返回值类型即为构造器所属的类的类型
@@ -52,7 +52,6 @@ public class ConstructorRefTest {
         Function<Integer,Employee> func2 = Employee :: new;
         Employee employee1 = func2.apply(1002);
         System.out.println(employee1);
-
     }
 
 	//BiFunction中的R apply(T t,U u)
@@ -81,6 +80,7 @@ public class ConstructorRefTest {
         Function<Integer,String[]> func2 = String[] :: new;
         String[] arr2 = func2.apply(10);
         System.out.println(Arrays.toString(arr2));
-
     }
+
+
 }
